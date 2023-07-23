@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    padding-top:10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    
+
+}
+#logo{
+    box-sizing: border-box;
+    position: fixed;
+    top: 1%;
+    height: 70px;
+    width: 200px;
+}
+
+nav{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    position: fixed;
+    right:10%;
+}
+a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content{
+    
+    width: auto;
+    background-color: rgb(51, 73, 73);
+}
+
+.intro{  box-sizing: border-box;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: rgb(88, 50, 50);
+    text-align-last:center;
+    position: fixed;
+    left: 15%;
+    right: 50%;
+    top: 200px;
+   
+}
+span{
+    color: orange;
+}
+.name{
+    color: rgb(0, 0, 0);
+}
+.para{
+    color: rgb(120, 96, 73);
+}
+
+#img{
+    box-sizing: content-box;
+    position: fixed;
+    left:45%;
+    top: 100px;
+    height: 600px;
+    width: 750px;
+    
+}
+.menu{
+    height: 10px;
+    background-color: rgb(132, 83, 83);
+    border: solid blue;
+    position: fixed;
+    top: 1%;
+    right: 50%;
+}
+.logos{
+    display:flex;
+    gap: 30px;
+    position:fixed;
+    top: 380px;
+    left:23%;
+    
+}
+.logos  img{
+    height: 30px;
+
+}
+#btn{
+    border: solid black 2px;
+    border-radius: 12px ;
+    padding: 15px 32px;
+    background-color: rgb(198, 240, 220);
+    text-align: center;
+    font-size: larger;
+    display: inline-block;
+    position: fixed;
+    top: 450px;
+    left: 23%;
+    cursor: pointer;
+}
